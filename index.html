@@ -12,12 +12,13 @@
 <body>
     <header class="encabezado">
         <figure>
-            <img src="img/logo-eidos.png" alt="Imgagen Eido para ejemplo" width="300px">
+            <img class="logo" src="img/logo-eidos.png" alt="Imgagen Eido para ejemplo" width="150px">
         </figure>
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#contenido">Contenido</a>
-            <a href="#contacto">Contacto</a>
+            <ul class="menu">
+                <li class="item-menu"><a href="#inicio">Inicio</a></li>
+                <li class="item-menu"><a href="#contacto">Contacto</a></li>
+            </ul>    
         </nav>     
     </header>
 
@@ -25,36 +26,37 @@
     <!-- En este archivo escriban su HTML -->
 
     <main>
-    <img class="imgpresentacion" src="img/Imagen Personal Luis Pico.jpeg" alt="Foto personal Luis Pico">
-    
-    <section class="seccion1">
-        <article>
-            <h1>Hola, Soy Luis Pico</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia odio assumenda. 
-               Blanditiis odio error fugiat beatae odit veniam soluta eveniet architecto exercitationem 
-               harum natus quas nihil ipsa, facilis quam! <br> Lorem ipsum dolor sit, amet consectetur 
-               adipisicing elit. Odit minus sint facilis perferendis, ut voluptatem quidem quos laborum. 
-               Suscipit qui voluptate eum quia rem aut ipsa voluptates accusamus velit reiciendis.</p>
-        </article>
-    </section>
-    <section class="seccion2">
-        <article>
-            <h2>Hablemos!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam explicabo veniam illo accusamus, 
-               quia perferendis quae ipsa suscipit quisquam dolores aliquam enim, quis ad delectus alias aperiam, 
-               vitae corrupti voluptas. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Exercitationem voluptatum ipsam, fugit ea voluptate recusandae! Sint accusantium fugit explicabo 
-               sunt fugiat amet ipsam, totam quis laborum qui mollitia veniam quas?</p>
-        </article>
-        <button><a download="Hoja de Vida Luis Pico" href="Documento/CV Luis Pico.pdf" id="download"target="_blank">Descargar mi CV</a></button>
-    </section>
-    <nav>
-        <ul>
-            <li class="contactlist"><a href="mailto:luis.pico21@gmail.com"target="_blank"><img src="img/mail.png" alt="Correo" width="150px"></a></li>
-            <li class="contactlist"><a href="https://github.com/login"target="_blank"><img src="img/github.png" alt="github" width="150px"></a></li>
-            <li class="contactlist"><a href="https://www.linkedin.com/"target="_blank"><img src="img/linkedin.png" alt="linkedin" width="150px"></a></li>
-        </ul>
-    </nav>
+        <section id="inicio">
+            <figure>
+                <img class="imgpresentacion" src="img/Imagen Personal Luis Pico.jpeg" alt="Foto personal Luis Pico">
+            </figure>    
+            <article>
+                <h1>Hola, Soy Luis Pico</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia odio assumenda. 
+                Blanditiis odio error fugiat beatae odit veniam soluta eveniet architecto exercitationem 
+                harum natus quas nihil ipsa, facilis quam! <br> Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Odit minus sint facilis perferendis, ut voluptatem quidem quos laborum. 
+                Suscipit qui voluptate eum quia rem aut ipsa voluptates accusamus velit reiciendis.</p>
+            </article><br>
+            <a download="Hoja de Vida Luis Pico" href="Documento/CV Luis Pico.pdf" id="download"target="_blank">Descargar mi CV</a>
+        </section>
+        <section id="contacto">
+            <article>
+                <h2>Hablemos!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam explicabo veniam illo accusamus, 
+                quia perferendis quae ipsa suscipit quisquam dolores aliquam enim, quis ad delectus alias aperiam, 
+                vitae corrupti voluptas. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Exercitationem voluptatum ipsam, fugit ea voluptate recusandae! Sint accusantium fugit explicabo 
+                sunt fugiat amet ipsam, totam quis laborum qui mollitia veniam quas?</p>
+            </article>
+        </section>
+        <nav>
+            <ul class="contactlist">
+                <li><a href="mailto:luis.pico21@gmail.com"target="_blank"><img src="img/mail.png" alt="Correo" width="60px"></a></li>
+                <li><a href="https://github.com/LuisEpicoS/mi-nuevo-proyecto.git"target="_blank"><img src="img/github.png" alt="github" width="60px"></a></li>
+                <li><a href="https://www.linkedin.com/"target="_blank"><img src="img/linkedin.png" alt="linkedin" width="60px"></a></li>
+            </ul>
+        </nav>
 
     </main>
     <footer class="piedepagina">

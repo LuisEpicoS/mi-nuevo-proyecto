@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Bitter&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -16,17 +16,119 @@
     padding: 0;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
-    font-size: 18px;
-    line-height: 1.2;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
     background-color: #fbfbfb;
+    line-height: 1.2;
+    font-size: 18px;
+    color: #0f0f0f;
 }
 
 .encabezado {
     display: flex;
     justify-content: space-around;
-    text-align: justify;
     align-items: center;
-    }
+    height: 90px;
+    width: 100%;
+    padding: 16px;
+    position: fixed;
+    background-color: #fbfbfb;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px #5f5f5f;
+    /* text-align: justify; */
+}
+
+
+
+.logo {
+    width: 150px;
+    margin-left: 16px;
+}
+
+.imgpresentacion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#inicio {
+    padding-top: 120px;
+    color: #0f0f0f;
+    margin: 30px;
+    text-align: justify;
+    min-height: 100vh;
+}
+
+ul.menu {
+    display: flex;
+    font-size: 20px;
+}
+
+li.item-menu a {
+    padding: 20px;
+    display: inline-block;
+}
+
+li.item-menu:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0 ,0 ,0 ,0.2 );
+}
+
+#download {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+
+#contacto {
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    margin: 50px;
+    padding: 20px 20px;
+    border-radius: 3%;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+ul.contactlist {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #af599e;
+    color: #fbfbfb;
+}
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -64,9 +166,4 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
-
-.seccion1 .seccion2 {
-    min-height: 100vh;
-}
-
 
