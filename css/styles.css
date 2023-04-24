@@ -69,8 +69,9 @@ h2 {
     padding-top: 120px;
     color: #0f0f0f;
     margin: 30px;
-    text-align: justify;
+    text-align: center;
     min-height: 100vh;
+    justify-items: center;
 }
 
 ul.menu {
@@ -90,6 +91,7 @@ li.item-menu:hover {
 #download {
     display: inline-block;
     border-radius: 50px;
+    border: none;
     background-color: #af599e;
     color: #fbfbfb;
     padding: 12px 20px;
